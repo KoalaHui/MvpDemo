@@ -27,6 +27,14 @@
 
     <string name="load_fail">加载数据失败!</string>
     <string name="title_activity_news_detail">NewsDetailActivity</string>
-
     <string name="image_hit">一次只加载20条，查看更多内容请刷新哦。</string>
+
+
+    <array name="main_tab_title">
+        <item>新闻</item>
+        <item>图片</item>
+        <item>视频</item>
+        <item>音乐</item>
+        <item>我的</item>
+    </array>
 </resources>

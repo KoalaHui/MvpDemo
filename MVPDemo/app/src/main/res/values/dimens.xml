@@ -1,13 +1,50 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="main_tab_height">54dp</dimen>
+
+    <dimen name="main_divider_line">10dp</dimen>
+    <dimen name="main_line_size">0.3dp</dimen>
+    <dimen name="main_margin">13.3dp</dimen>
+    <dimen name="main_margin_42">14dp</dimen>
+
+    <dimen name="main_text_32">10sp</dimen>
+    <dimen name="main_text_34">11sp</dimen>
+    <dimen name="main_text_36">12sp</dimen>
+    <dimen name="main_text_42">14sp</dimen>
+    <dimen name="main_text_48">16sp</dimen>
+    <dimen name="main_text_54">18sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
-    <dimen name="card_margin">5dp</dimen>
-    <dimen name="news_image_width">86dp</dimen>
-    <dimen name="news_image_height">60dp</dimen>
 
-    <dimen name="sn_16sp">16sp</dimen>
-    <dimen name="sn_14sp">14sp</dimen>
-    <dimen name="sn_12sp">12sp</dimen>
+    <dimen name="local_video_img_width">106dp</dimen>
+    <dimen name="local_video_img_height">96dp</dimen>
+    <dimen name="local_video_cache_height">210dp</dimen>
+    <!--zxing-->
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    <dimen name="recommend_talent_list_padding">32dip</dimen>
+
+
+    <!-- MEDIA CONTROLLER -->
+    <dimen name="media_controller_text_size">14sp</dimen>
+    <dimen name="media_controller_seekbar_width">32dip</dimen>
+    <dimen name="media_controller_seekbar_height">32dip</dimen>
+    <dimen name="media_controller_top_margin">80dip</dimen>
+    <dimen name="media_controller_bottom_margin">12dip</dimen>
+    <dimen name="media_controller_view_height">48dip</dimen>
+    <dimen name="media_controller_button_height">52dip</dimen>
+    <dimen name="media_controller_button_width">71dip</dimen>
+
+
+
+
+    <!-- PADDINGS -->
+    <dimen name="padding_none">0dp</dimen>
+    <dimen name="padding_small">2dp</dimen>
+    <dimen name="padding_medium">4dp</dimen>
+    <dimen name="padding_extra_large">48dp</dimen>
+
 </resources>

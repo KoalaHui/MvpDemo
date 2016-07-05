@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="tab_top_line_color" format="color" />
+    <attr name="tab_padding" format="dimension" />
+    <attr name="tab_drawable_padding" format="dimension" />
+    <declare-styleable name="ZMainTab">
+        <attr name="tab_top_line_color" />
+        <attr name="tab_padding" />
+        <attr name="tab_drawable_padding" />
+    </declare-styleable>
+
+    <attr name="bg_color" format="color" />
+    <attr name="tv_color" format="color" />
+    <attr name="tv_content" format="reference"/>
+    <attr name="tv_size" format="dimension"/>
+    <declare-styleable name="ZTextView">
+        <attr name="bg_color" />
+        <attr name="tv_color" />
+        <attr name="tv_content" />
+        <attr name="tv_size" />
+    </declare-styleable>
+
+    <attr name="indicatorColor" format="color"/>
+    <attr name="dividerColor" format="color"/>
+    <attr name="bottomLineColor" format="color"/>
+    <attr name="dividerMargin" format="dimension"/>
+    <attr name="indicatorHeight" format="dimension"/>
+    <attr name="bottomLineHeight" format="dimension"/>
+    <attr name="dividerWidth" format="dimension"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="textColor" format="color"/>
+    <declare-styleable name="ZTabLayout">
+        <attr name="indicatorColor"/>
+        <attr name="dividerColor"/>
+        <attr name="bottomLineColor"/>
+        <attr name="dividerMargin"/>
+        <attr name="indicatorHeight"/>
+        <attr name="bottomLineHeight"/>
+        <attr name="dividerWidth"/>
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+    </declare-styleable>
+
+    <attr name="indicator_icon" format="reference" />
+    <attr name="indicator_margin" format="dimension" />
+    <attr name="indicator_smooth" format="boolean" />
+    <declare-styleable name="ZIndicatorView">
+        <attr name="indicator_icon" />
+        <attr name="indicator_margin" />
+        <attr name="indicator_smooth" />
+    </declare-styleable>
+
+    <attr name="flow_background" format="reference" />
+    <attr name="max_height" format="boolean" />
+    <declare-styleable name="ZFlowLayout">
+        <attr name="flow_background" />
+        <attr name="max_height" />
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ZScrollView">
+        <attr name="toolbarSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="cusInsetForeground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundProgressColor2" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="roundtextColor" format="color" />
+        <attr name="roundtextSize" format="dimension" />
+        <attr name="roundmax" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="StickyListHeadersListView">
+        <attr name="stickyListHeadersListViewStyle" format="reference"/>
+
+        <!-- View attributes -->
+        <attr name="android:clipToPadding" />
+        <attr name="android:scrollbars" />
+        <attr name="android:overScrollMode" />
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+
+        <!-- ListView attributes -->
+        <attr name="android:fadingEdgeLength" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:cacheColorHint" />
+        <attr name="android:choiceMode" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:fastScrollEnabled" />
+        <attr name="android:fastScrollAlwaysVisible" />
+        <attr name="android:listSelector" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:scrollbarStyle" />
+        <attr name="android:divider" />
+        <attr name="android:dividerHeight" />
+        <attr name="android:transcriptMode" />
+        <attr name="android:stackFromBottom" />
+
+        <!-- StickyListHeaders attributes -->
+        <attr name="hasStickyHeaders" format="boolean" />
+        <attr name="isDrawingListUnderStickyHeader" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>

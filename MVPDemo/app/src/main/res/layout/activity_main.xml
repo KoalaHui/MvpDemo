@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout
+<RelativeLayout
     android:id="@+id/drawer_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".main.widget.MainActivity">
-
-    <android.support.design.widget.CoordinatorLayout
-        android:id="@+id/main_content"
+    tools:context=".MainActivity"
+    xmlns:glod="http://schemas.android.com/apk/res-auto">
+    <com.mvpdemo.view.MainTab
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <include
-            android:id="@+id/appbar"
-            layout="@layout/toolbar"/>
-
-
-        <FrameLayout
-            android:id="@+id/frame_content"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/appbar"
-            android:elevation="5dp"
-            android:scrollbars="none"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
-
-    </android.support.design.widget.CoordinatorLayout>
-
-    <android.support.design.widget.NavigationView
-        android:id="@+id/navigation_view"
-        android:layout_width="wrap_content"
+        android:layout_height="@dimen/main_tab_height"
+        android:textColor="@color/tab_text_color"
+        android:textSize="@dimen/main_text_34"
+        glod:tab_drawable_padding="-1dp"
+        glod:tab_padding="7dp"
+        glod:tab_top_line_color="@color/main_color_line"
+        android:background="#ffffffff"
+        android:id="@+id/id_main_tab"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:headerLayout="@layout/navigation_header"
-        app:menu="@menu/navigation_menu"/>
-
-</android.support.v4.widget.DrawerLayout>
+        android:id="@+id/id_main_container"
+        android:layout_above="@id/id_main_tab"
+        />
+</RelativeLayout>

@@ -11,4 +11,62 @@
     <color name="divider">#B6B6B6</color>
 
 
+    <color name="main_tab_color">#ffffffff</color>
+    <color name="main_status_color">#cecece</color>
+    <color name="main_color">#ffff8f5c</color>
+    <color name="main_transparent">#50000000</color>
+    <color name="main_color_alpha">#70ff8f5c</color>
+    <color name="main_color_1">#ff464646</color>
+    <color name="main_color_2">#ff7c7c7c</color>
+    <color name="main_color_3">#ffa3a3a3</color>
+    <color name="main_color_w_1">#ffffffff</color>
+    <color name="main_color_w_2">#fff0f0f0</color>
+    <color name="main_color_line">#ffe0e0e0</color>
+    <color name="main_bg">@android:color/white</color>
+    <color name="main_yellow">#ffc82e</color>
+
+    <color name="main_she_qu_color_1">#ff464646</color>
+    <color name="main_she_qu_color_2">#ffa0a0a0</color>
+    <color name="main_she_qu_color_3">#ff2b8bbd</color>
+    <color name="main_she_qu_color_4">#ff6c6c6c</color>
+    <color name="shui_yin_bg">#5a5b5b</color>
+    <color name="attention_color">#ffaad566</color>
+
+
+    <color name="color_green">#ff5bb752</color>
+    <color name="color_dark">#ffeaeaea</color>
+    <color name="color_divider">#ffeeeeee</color>
+    <color name="color_bitmap">#dedede</color>
+    <color name="color_text_bg">#fff0f0f0</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#7f000000</color>
+    <color name="transparent50">#7fffffff</color>
+    <color name="common_theme">#f18336</color>
+
+    <color name="zan_animator_color">#f14744</color>
+
+    <color name="color_progress">#ffaad566</color>
+
+    <color name="my_tip_red">#ffff3b30</color>
+    <color name="cache_date">#ff303030</color>
+    <color name="cache_content">#ffeaeaeb</color>
+    <color name="follow_color">#ff915d</color>
+    <color name="share_color">#ffe6e6e6</color>
+
+    <color name="show_color">#50000000</color>
+
+
+    <color name="biz_audio_progress_bg">#00b2ff</color>
+    <color name="biz_audio_progress_first">#ffffff</color>
+    <color name="biz_audio_progress_second">#6b6666</color>
+
+    <color name="default_bg">#aa000000</color>
+    <color name="select_color">#00b2ff</color>
+    <color name="normal_color">#ffffffff</color>
+    <color name="divider_color">#55504a</color>
+    <!--special color-->
+    <color name="black_a10_color">#1a000000</color>
+
+
 </resources>

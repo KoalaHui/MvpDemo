@@ -14,7 +14,6 @@ import com.mvpdemo.R;
  * Date   : 15/12/21
  */
 public class ImageLoaderUtils {
-
     public static void display(Context context, ImageView imageView, String url, int placeholder, int error) {
         if(imageView == null) {
             throw new IllegalArgumentException("argument error");
